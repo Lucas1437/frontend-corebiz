@@ -1,76 +1,181 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 footer {
-    width: 100%;
-    color: #FFFFFF;
+  width: 100%;
+  color: #ffffff;
 }
-a{
-    text-decoration: none;
-    font-size: 13px;
-    color: #FFFFFF;
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #ffffff;
 }
-.footer-bg-black{
-     background-color: #000000;
+.footer-bg-black {
+  background-color: #000000;
 }
-.container{
-    width: 100%;
-    max-width: 1115px;
-    margin: 0 auto;
-    padding: 25px 0;
+.container {
+  width: 100%;
+  max-width: 1115px;
+  margin: 0 auto;
+  padding: 25px 0;
 }
-.address{
-    text-align: left;
-    line-height: 32px;
+.address {
+  text-align: left;
+  line-height: 32px;
 }
-.address h3{
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
+.address h3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
 }
-.white-separator{
-    border: 5px solid #FFFFFF;
-    width: 44.94px;
-    text-align: left;
-    margin: 20px 0;
+.white-separator {
+  border: 5px solid #ffffff;
+  width: 44.94px;
+  text-align: left;
+  margin: 20px 0;
 }
-.btn-white{
-    background: #FFFFFF;
-    border-radius: 5px;
-    border: 0;
-    height: 38px;
-    text-align: center;
-    padding: 0 16px;
-    max-width: 195px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 25px;
+.btn-white {
+  background: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  height: 38px;
+  text-align: center;
+  padding: 0 16px;
+  max-width: 195px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
 }
-.btn-white a{
-    color: #000000;
-    margin-left: 18px;
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    text-transform: uppercase;
+.btn-white a {
+  color: #000000;
+  margin-left: 18px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 .Row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
-.created{
-    display: flex;
+.created {
+  display: flex;
 }
-section.created div {margin-right: 29px;}
+section.created div {
+  margin-right: 29px;
+}
+.inputbusca {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #7a7a7a;
+  border: 0;
+  border-bottom: 1px solid #7a7a7a;
+  width: 718px;
+  height: 25px;
+}
+.conta-link {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #7a7a7a;
+  margin-right: 15px;
+}
+.iconebusca {
+  width: 18px;
+  height: 18px;
+}
+.iconecompra {
+  width: 18px;
+  height: 18px;
+}
+.qtd-carrinho {
+  background-color: #f8475f;
+  width: 14px;
+  height: 14px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  margin-left: 8px;
+}
+.icone-compra {
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-icone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* slick */
+.slick-slide img {
+    width: 100%;
+    color: ;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: deeppink;
+    font-size: 10px;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 8px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: -3px;
+    width: 10px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 1;
+    color: #BDBDBD;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 18px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
